@@ -1,0 +1,102 @@
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-shadow: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    border: 2px solid black;
+    width: 100%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;    
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline;
+    font-size: 2rem;
+    margin-right: 4rem;
+}
+header form {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 2rem;
+    width: 10%;
+    margin-right: 3rem;
+    ;
+}
+.cart button {
+    width: 5%;
+    height: auto;
+}
+
+/*CLASSES*/
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: auto;
+    width: 60px;
+}
+h1.logo.img {
+    width: 30px;
+    height: 30px;
+}
+header .search {
+    display: flex;
+    flex-direction: row;
+    margin-right: 9rem;
+    margin-left: auto;
+    }
+header .search-field {
+    width: 20rem;
+    padding: 1rem 4rem 1rem 4rem;
+    border: #707070;
+    border-radius: 20rem;
+    outline: auto;
+    
+
+}
+header .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.search-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.home img {
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: scroll;
+    margin-left: 0px;
+    height: auto;
+    display: flex;
+}
